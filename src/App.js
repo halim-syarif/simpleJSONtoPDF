@@ -53,6 +53,7 @@ function App() {
 
   return (
     <div>
+      <h1 className="centered">AVICENNA AL FALAH</h1>
       <div class="container">
         <div class="column">
           <Editor value={data} onChange={(val) => setData(val)} />
